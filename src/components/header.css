@@ -1,22 +1,15 @@
+header a {
+   color: whitesmoke;
+}
 header a:link {
    text-decoration: none;
 }
-
 header a:visited {
    text-decoration: none;
 }
-
 header a:hover {
-   color: #586273;
 }
-
 header a:active {
-   color: #586273;
-}
-
-header a {
-   color: whitesmoke;
-   transition: width 0.2s, height 0.2s;
 }
 
 header {
@@ -44,6 +37,14 @@ header h2 {
    font-weight: normal;
 }
 
+.viewPortfolio {
+   transition: width 0.2s, height 0.2s;
+}
+
+.viewPortfolio:hover {
+   font-size: 1.5rem;
+}
+
 .downArrow {
    width: 48px;
    height: 48px;
@@ -52,7 +53,6 @@ header h2 {
    background-image: url("images/down-arrow.svg");
    background-size: cover;
    fill: whitesmoke;
-   transition: width 0.2s, height 0.2s;
 }
 
 .downArrow:hover {

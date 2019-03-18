@@ -10,7 +10,7 @@ class Header extends Component {
             <h1>Front End Web Developer & Designer</h1>
             {/* href="#projectsID" */}
             <a href="http://derekjleong.tech/" target="_blank">
-               <h2>View Portfolio</h2>
+               <h2 className="viewPortfolio">View Portfolio</h2>
                <div className="downArrow" />
             </a>
          </header>
