@@ -14,16 +14,18 @@ header a:active {
 
 header {
    min-height: 100vh;
+   width: 100%;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    font-weight: normal;
-   background-color: #344055;
+   background-image: radial-gradient(ellipse, #2b3546, #13181f);
    color: whitesmoke;
 }
 
 header h1 {
+   z-index: 10;
    text-align: center;
    margin: 5rem auto;
    font-family: "EB Garamond", serif;
@@ -38,6 +40,7 @@ header h1 {
 }
 
 header h2 {
+   z-index: 10;
    margin: 5rem 0;
    font-family: "Helvetica", sans-serif;
    font-size: 2.2vh;

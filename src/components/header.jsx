@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import HeaderBackground from "./headerBackground";
 import "./header.css";
 
 class Header extends Component {
@@ -13,6 +14,7 @@ class Header extends Component {
                <h2 className="viewPortfolio">View Portfolio</h2>
                <div className="downArrow" />
             </a>
+            <HeaderBackground />
          </header>
       );
    }
