@@ -7,7 +7,7 @@ class Header extends Component {
       return (
          <header>
             <h2>Derek J Leong</h2>
-            <h1>Front End Web Developer & Designer</h1>
+            <h1>Front End Developer</h1>
             {/* href="#projectsID" */}
             <a href="http://derekjleong.tech/" target="_blank">
                <h2 className="viewPortfolio">View Portfolio</h2>
