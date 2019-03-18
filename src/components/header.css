@@ -1,0 +1,61 @@
+header a:link {
+   text-decoration: none;
+}
+
+header a:visited {
+   text-decoration: none;
+}
+
+header a:hover {
+   color: #586273;
+}
+
+header a:active {
+   color: #586273;
+}
+
+header a {
+   color: whitesmoke;
+   transition: width 0.2s, height 0.2s;
+}
+
+header {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-weight: normal;
+   background-color: #344055;
+   color: whitesmoke;
+}
+
+header h1 {
+   margin: 5rem 0;
+   font-family: "EB Garamond", serif;
+   font-size: 6vw;
+   font-weight: normal;
+}
+
+header h2 {
+   margin: 5rem 0;
+   font-family: "Helvetica", sans-serif;
+   font-size: 2.2vh;
+   font-weight: normal;
+}
+
+.downArrow {
+   width: 48px;
+   height: 48px;
+   margin: 0 auto;
+   margin-top: 4rem;
+   background-image: url("images/down-arrow.svg");
+   background-size: cover;
+   fill: whitesmoke;
+   transition: width 0.2s, height 0.2s;
+}
+
+.downArrow:hover {
+   width: 56px;
+   height: 56px;
+}
