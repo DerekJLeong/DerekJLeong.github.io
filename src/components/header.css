@@ -1,5 +1,6 @@
 header a {
    color: whitesmoke;
+   z-index: 10;
 }
 header a:link {
    text-decoration: none;
@@ -53,10 +54,11 @@ header h2 {
 }
 
 .viewPortfolio:hover {
-   font-size: 1.5rem;
+   font-size: 2.4vh;
 }
 
 .downArrow {
+   z-index: 10;
    width: 48px;
    height: 48px;
    margin: 0 auto;
