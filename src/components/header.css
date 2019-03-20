@@ -28,11 +28,11 @@ header {
 header h1 {
    z-index: 10;
    text-align: center;
-   margin: 5rem auto;
+   margin: 4rem auto;
    font-family: "EB Garamond", serif;
    font-size: 7.5vw;
-
    letter-spacing: 0.3rem;
+   perspective: 10rem;
    font-weight: normal;
    overflow: hidden;
    white-space: nowrap;
@@ -42,10 +42,11 @@ header h1 {
 
 header h2 {
    z-index: 10;
-   margin: 5rem 0;
+   margin: 4rem 0;
    font-family: "Helvetica", sans-serif;
    font-size: 2.2vh;
    font-weight: normal;
+   perspective: 10rem;
    animation: fade-in 3s ease-in;
 }
 
@@ -66,6 +67,7 @@ header h2 {
    background-image: url("images/down-arrow.svg");
    background-size: cover;
    fill: whitesmoke;
+   perspective: 10rem;
    animation: fade-in 3s ease-in;
 }
 
