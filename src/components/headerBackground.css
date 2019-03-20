@@ -55,42 +55,42 @@
 .shootingStar:nth-child(2) {
    top: calc(5%);
    left: calc(-19%);
-   animation-delay: 5000ms;
+   animation-delay: 4300ms;
 }
 .shootingStar:nth-child(2)::before,
 .shootingStar::after:nth-child(2),
 .shootingStar:nth-child(2)::after {
-   animation-delay: 5000ms;
+   animation-delay: 4300ms;
 }
 .shootingStar:nth-child(3) {
    top: calc(0%);
    left: calc(-15%);
-   animation-delay: 8000ms;
+   animation-delay: 7100ms;
 }
 .shootingStar:nth-child(3)::before,
 .shootingStar::after:nth-child(3),
 .shootingStar:nth-child(3)::after {
-   animation-delay: 8000ms;
+   animation-delay: 7100ms;
 }
 .shootingStar:nth-child(4) {
    top: calc(-6%);
    left: calc(-9%);
-   animation-delay: 5000ms;
+   animation-delay: 5300ms;
 }
 .shootingStar:nth-child(4)::before,
 .shootingStar::after:nth-child(4),
 .shootingStar:nth-child(4)::after {
-   animation-delay: 5000ms;
+   animation-delay: 5300ms;
 }
 .shootingStar:nth-child(5) {
    top: calc(1%);
    left: calc(-4%);
-   animation-delay: 2000ms;
+   animation-delay: 2400ms;
 }
 .shootingStar:nth-child(5)::before,
 .shootingStar::after:nth-child(5),
 .shootingStar:nth-child(5)::after {
-   animation-delay: 2000ms;
+   animation-delay: 2400ms;
 }
 .shootingStar:nth-child(6) {
    top: calc(8%);
@@ -105,12 +105,12 @@
 .shootingStar:nth-child(7) {
    top: calc(3%);
    left: calc(8%);
-   animation-delay: 7500ms;
+   animation-delay: 3500ms;
 }
 .shootingStar:nth-child(7)::before,
 .shootingStar::after:nth-child(7),
 .shootingStar:nth-child(7)::after {
-   animation-delay: 7500ms;
+   animation-delay: 3500ms;
 }
 .shootingStar:nth-child(8) {
    top: calc(-5%);
@@ -135,12 +135,12 @@
 .shootingStar:nth-child(10) {
    top: calc(6%);
    left: calc(20%);
-   animation-delay: 6000ms;
+   animation-delay: 5800ms;
 }
 .shootingStar:nth-child(10)::before,
 .shootingStar::after:nth-child(10),
 .shootingStar:nth-child(10)::after {
-   animation-delay: 6000ms;
+   animation-delay: 5800ms;
 }
 .shootingStar:nth-child(11) {
    top: calc(1%);
@@ -155,12 +155,12 @@
 .shootingStar:nth-child(12) {
    top: calc(-4%);
    left: calc(29%);
-   animation-delay: 4600ms;
+   animation-delay: 5600ms;
 }
 .shootingStar:nth-child(12)::before,
 .shootingStar::after:nth-child(12),
 .shootingStar:nth-child(12)::after {
-   animation-delay: 4600ms;
+   animation-delay: 5600ms;
 }
 .shootingStar:nth-child(13) {
    top: calc(0%);
@@ -195,12 +195,12 @@
 .shootingStar:nth-child(16) {
    top: calc(-3%);
    left: calc(46%);
-   animation-delay: 5000ms;
+   animation-delay: 5100ms;
 }
 .shootingStar:nth-child(16)::before,
 .shootingStar::after:nth-child(16),
 .shootingStar:nth-child(16)::after {
-   animation-delay: 5000ms;
+   animation-delay: 5100ms;
 }
 .shootingStar:nth-child(17) {
    top: calc(1%);
@@ -215,12 +215,12 @@
 .shootingStar:nth-child(18) {
    top: calc(4%);
    left: calc(54%);
-   animation-delay: 6000ms;
+   animation-delay: 3100ms;
 }
 .shootingStar:nth-child(18)::before,
 .shootingStar::after:nth-child(18),
 .shootingStar:nth-child(18)::after {
-   animation-delay: 6000ms;
+   animation-delay: 3100ms;
 }
 .shootingStar:nth-child(19) {
    top: calc(-4%);
