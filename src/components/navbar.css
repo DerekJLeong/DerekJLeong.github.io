@@ -1,0 +1,13 @@
+.navButton {
+   width: 100px;
+   height: 100px;
+   background-color: red;
+}
+
+.close {
+   background-color: green;
+}
+
+.open {
+   background-color: blue;
+}
