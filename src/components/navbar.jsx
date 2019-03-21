@@ -2,28 +2,18 @@ import React, { Component } from "react";
 import "./navbar.css";
 
 class NavBar extends Component {
-   state = { isNavOpen: false };
-
-   // handleCloseNavClick = () => {
-   //    this.setState({isNavOpen: false});
-   // }
-   // handleOpenNavClick = () => {
-   //    this.setState({isNavOpen: true});
-   // }
-   toggleNavStateClick() {
-      let navState = this.state.isNavOpen;
-      return navState === true ? false : true;
+   constructor(props) {
+      super(props);
+      this.handleClick = this.handleClick.bind(this);
+      this.state = {
+         isNavOpen: false
+      };
    }
 
-   toggleNavClassNameClick() {
-      let classes = "navButton ";
-      classes += this.state.isNavOpen ? "open" : "close";
-      return classes;
-   }
-
-   combinedToggleClick() {
-      this.toggleNavStateClick();
-      this.toggleNavClassNameClick();
+   handleClick() {
+      this.setState({
+         isNavOpen: !this.state.isNavOpen
+      });
    }
 
    render() {
@@ -43,9 +33,11 @@ class NavBar extends Component {
 
       return (
          <React.Fragment>
-            <button
-               className="navButton close"
-               onClick={this.combinedToggleClick()}
+            <div
+               className={
+                  this.state.isNavOpen ? "navButton open" : "navButton close"
+               }
+               onClick={this.handleClick}
             />
             {nav}
          </React.Fragment>
