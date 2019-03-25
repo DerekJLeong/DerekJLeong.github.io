@@ -1,15 +1,23 @@
 nav {
-   /* position: fixed; */
-   z-index: 1;
-   background-color: turquoise;
+   position: fixed;
    width: 100vw;
    height: 100vh;
+   top: 0;
+   z-index: 2;
+   background-image: radial-gradient(ellipse, #2b3546, #13181f);
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
 }
+nav a {
+   font-family: "Helvetica", sans-serif;
+   font-size: 2rem;
+   margin: 2rem 1rem;
+   color: whitesmoke;
+}
 .navButton {
+   z-index: 3;
    position: fixed;
    top: 1rem;
    right: 1rem;

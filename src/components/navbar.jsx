@@ -23,10 +23,11 @@ class NavBar extends Component {
       nav = isNavOpen
          ? (nav = (
               <nav>
-                 <a href="#overviewID">Overview</a>
-                 <a href="#whatICanDoID">What I can do</a>
-                 <a href="#projectsID">My Projects</a>
-                 <a href="#contactID">Contact Me</a>
+                 <a href="#about">About</a>
+                 <a href="#projects">Projects</a>
+                 <a href="#skills">Skills</a>
+                 <a href="#contact">Contact</a>
+                 <a href="#">Resume</a>
               </nav>
            ))
          : null;

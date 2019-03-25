@@ -1,6 +1,6 @@
 header a {
    color: whitesmoke;
-   z-index: 10;
+   z-index: 1;
 }
 header a:link {
    text-decoration: none;
@@ -26,7 +26,7 @@ header {
 }
 
 header h1 {
-   z-index: 10;
+   z-index: 1;
    text-align: center;
    margin: 4rem auto;
    font-family: "EB Garamond", serif;
@@ -41,7 +41,7 @@ header h1 {
 }
 
 header h2 {
-   z-index: 10;
+   z-index: 1;
    margin: 4rem 0;
    font-family: "Helvetica", sans-serif;
    font-size: 2.2vh;
@@ -59,7 +59,7 @@ header h2 {
 }
 
 .downArrow {
-   z-index: 10;
+   z-index: 1;
    width: 48px;
    height: 48px;
    margin: 0 auto;
