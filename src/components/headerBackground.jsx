@@ -26,6 +26,10 @@ class HeaderBackground extends Component {
             <div className="shootingStar" />
             <div className="shootingStar" />
             <div className="shootingStar" />
+            <div className="shootingStar" />
+            <div className="shootingStar" />
+            <div className="shootingStar" />
+            <div className="shootingStar" />
          </div>
       );
    }
