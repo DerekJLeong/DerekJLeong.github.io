@@ -19,6 +19,7 @@ nav a {
 .navButton {
    z-index: 3;
    position: fixed;
+   margin: 1rem;
    top: 1rem;
    right: 1rem;
    width: 65px;
@@ -26,12 +27,15 @@ nav a {
    background-size: cover;
 }
 
-.close {
+.open {
    background-image: url("images/menu.svg");
 }
 
-.open {
+.close {
    background-image: url("images/close.svg");
+   margin: 1.35rem;
+   width: 55px;
+   height: 55px;
 }
 
 .open:hover {

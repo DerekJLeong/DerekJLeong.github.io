@@ -36,7 +36,7 @@ class NavBar extends Component {
          <React.Fragment>
             <div
                className={
-                  this.state.isNavOpen ? "navButton open" : "navButton close"
+                  this.state.isNavOpen ? "navButton close" : "navButton open"
                }
                onClick={this.handleClick}
             />
