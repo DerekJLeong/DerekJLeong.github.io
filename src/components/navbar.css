@@ -39,10 +39,10 @@ nav a {
 }
 
 .open:hover {
-   animation: rotate-center 0.35s ease-in both;
+   animation: rotate-center 0.25s ease-out both;
 }
 .close:hover {
-   animation: rotate-center 0.35s ease-in reverse both;
+   animation: rotate-center 0.25s ease-out reverse both;
 }
 
 @keyframes rotate-center {
