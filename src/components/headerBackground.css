@@ -232,8 +232,8 @@
    animation-delay: 8200ms;
 }
 .shootingStar:nth-child(20) {
-   top: calc(0%);
-   left: calc(59%);
+   top: calc(5%);
+   left: calc(57%);
    animation-delay: 3300ms;
 }
 .shootingStar:nth-child(20)::before,
