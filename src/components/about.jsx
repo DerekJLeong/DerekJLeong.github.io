@@ -24,7 +24,7 @@ class About extends Component {
                Recently teaching myself ReactJS, I enjoy spending my free time
                honing and expanding my craft.
             </p>
-            <h3>There is always more to learn.</h3>
+            <h2>There is always more to learn.</h2>
          </section>
       );
    }
