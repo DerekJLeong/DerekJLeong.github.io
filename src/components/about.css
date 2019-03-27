@@ -11,7 +11,7 @@
 }
 .about h2 {
    font-family: "Helvetica", sans-serif;
-   padding: 1rem 2rem;
+   padding: 2rem 2rem 1rem;
    text-align: center;
 }
 .about h3 {
@@ -22,12 +22,16 @@
 .about p {
    font-family: "EB Garamond", serif;
    font-size: 1.2rem;
-   padding: 0.5rem 2rem;
+   padding: 1rem 2rem;
    text-indent: 2rem;
+   line-height: 1.5rem;
 }
 .aboutImage {
-   width: 80%;
-   height: 40%;
+   width: auto;
+   height: 25vh;
    background-image: url("images/placeholder.png");
-   background-size: cover;
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+   margin: 1rem;
 }
