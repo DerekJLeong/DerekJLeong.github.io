@@ -9,6 +9,24 @@ import Footer from "./components/footer";
 import "./App.css";
 
 class App extends Component {
+   state = {
+      projects: [
+         {
+            id: 1,
+            title: "Project Title 1",
+            description: "",
+            img: require("./components/images/portfolioProject.png"),
+            link: ""
+         },
+         {
+            id: 2,
+            title: "Project Title 2",
+            description: "",
+            img: require("./components/images/portfolioProject.png"),
+            link: ""
+         }
+      ]
+   };
    render() {
       return (
          <React.Fragment>
@@ -16,7 +34,7 @@ class App extends Component {
             <NavBar />
             <main>
                <About />
-               <Projects />
+               <Projects projects={this.state.projects} />
                <Skills />
                <Contact />
             </main>

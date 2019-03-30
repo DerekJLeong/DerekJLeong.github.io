@@ -1,9 +1,16 @@
 import React, { Component } from "react";
+import Project from "./project";
 
 class projects extends Component {
-   state = {};
    render() {
-      return <section>projects</section>;
+      return (
+         <section>
+            <h1>Projects</h1>
+            {this.props.projects.map(project => (
+               <Project key={project.id} project={project} />
+            ))}
+         </section>
+      );
    }
 }
 

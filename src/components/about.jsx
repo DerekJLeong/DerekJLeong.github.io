@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import "./about.css";
+import placeholder from "./images/placeholder.png";
 
 class About extends Component {
-   state = {};
    render() {
       return (
          <section className="about">
             <h1>About</h1>
-            <div className="aboutImage" />
+            <img src={placeholder} className="placeholder" alt="placeholder" />
             <h2>Hi, my name is Derek and I’m a front end developer.</h2>
             <p>
                My passion for programming and technology goes back nearly a

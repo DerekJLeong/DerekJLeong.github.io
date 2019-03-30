@@ -19,8 +19,11 @@
    font-family: "Helvetica", sans-serif;
    /* font-family: "EB Garamond", serif; */
    font-size: 6vw;
-   margin: 2rem 2rem;
+   margin: 2rem 2rem 1rem;
    text-align: center;
+}
+.about h2:last-child {
+   margin: 1rem 2rem 2rem;
 }
 .about h3 {
    font-family: "EB Garamond", serif;
@@ -35,13 +38,9 @@
    line-height: 1.5rem;
    color: #c5c7cc;
 }
-.aboutImage {
-   width: auto;
-   height: 25vh;
-   background-image: url("images/placeholder.png");
-   background-size: contain;
-   background-position: center;
-   background-repeat: no-repeat;
+.placeholder {
+   width: 100%;
+   height: auto;
 }
 .colored {
    border-bottom: solid;
