@@ -4,7 +4,7 @@ nav {
    height: 100vh;
    top: 0;
    z-index: 2;
-   background-image: radial-gradient(ellipse, #2b3546, #13181f);
+   background-image: radial-gradient(ellipse, #242c3a, #0c0f14);
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -14,7 +14,7 @@ nav a {
    font-family: "Helvetica", sans-serif;
    font-size: 2rem;
    margin: 2rem 1rem;
-   color: whitesmoke;
+   color: #ebecee;
 }
 .navButton {
    z-index: 3;

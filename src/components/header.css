@@ -1,5 +1,5 @@
 header a {
-   color: whitesmoke;
+   color: #ebecee;
    z-index: 1;
 }
 header a:link {
@@ -21,8 +21,8 @@ header {
    justify-content: center;
    align-items: center;
    font-weight: normal;
-   background-image: radial-gradient(ellipse, #2b3546, #13181f);
-   color: whitesmoke;
+   background-image: radial-gradient(ellipse, #242c3a, #0c0f14);
+   color: #ebecee;
 }
 
 header h1 {
@@ -36,7 +36,7 @@ header h1 {
    font-weight: normal;
    overflow: hidden;
    white-space: nowrap;
-   border-right: 0.075em solid whitesmoke; /* Blinking Cursor */
+   border-right: 0.075em solid #ebecee;
    animation: typing 3s steps(18, end), blink-caret 1s step-end infinite;
 }
 
@@ -66,7 +66,7 @@ header h2 {
    margin-top: 4rem;
    background-image: url("images/down-arrow.svg");
    background-size: cover;
-   fill: whitesmoke;
+   fill: #ebecee;
    perspective: 10rem;
    animation: fade-in 3s ease-in;
 }
@@ -90,7 +90,7 @@ header h2 {
 @keyframes blink-caret {
    from,
    to {
-      border-color: whitesmoke;
+      border-color: #ebecee;
    }
    50% {
       border-color: transparent;

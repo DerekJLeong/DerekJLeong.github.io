@@ -18,13 +18,13 @@ class About extends Component {
                middle school, and later programming, after taking an
                introduction course in high school. I enrolled at CSULB as a
                Computer Science major for 2 years, after which prompted me to
-               complete a front end development coding bootcamp with Udacity.
+               complete a front end developmer bootcamp with Udacity.
             </p>
             <p>
                Recently teaching myself ReactJS, I enjoy spending my free time
-               honing and expanding my craft.
+               honing and expanding my skill set.
             </p>
-            <h2>There is always more to learn.</h2>
+            <h2 className="colored">There is always more to learn.</h2>
          </section>
       );
    }
