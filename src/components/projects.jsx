@@ -4,7 +4,7 @@ import Project from "./project";
 class projects extends Component {
    render() {
       return (
-         <section>
+         <section className="projects">
             <h1>Projects</h1>
             {this.props.projects.map(project => (
                <Project key={project.id} project={project} />

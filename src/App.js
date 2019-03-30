@@ -13,16 +13,23 @@ class App extends Component {
       projects: [
          {
             id: 1,
-            title: "Project Title 1",
+            title: "Portfolio Site V1",
             description: "",
             img: require("./components/images/portfolioProject.png"),
             link: ""
          },
          {
             id: 2,
-            title: "Project Title 2",
+            title: "Concentration Game",
             description: "",
-            img: require("./components/images/portfolioProject.png"),
+            img: require("./components/images/concentrationProject.png"),
+            link: ""
+         },
+         {
+            id: 3,
+            title: "Restuarant Review Application",
+            description: "",
+            img: require("./components/images/restuarantProject.png"),
             link: ""
          }
       ]
