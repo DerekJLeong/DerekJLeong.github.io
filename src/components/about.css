@@ -3,7 +3,7 @@
    display: block;
    overflow: auto;
    color: #ebecee;
-   background-color: #242c3a;
+   background-color: #373f4b;
    padding-bottom: 1rem;
 }
 .about h1 {
@@ -36,7 +36,7 @@
    padding: 1rem 2rem;
    text-indent: 2rem;
    line-height: 1.5rem;
-   color: #c5c7cc;
+   color: #d7d8db;
 }
 .placeholder {
    width: 100%;
