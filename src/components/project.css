@@ -14,10 +14,24 @@
    border-width: 5px;
    border-color: #79b473;
 }
+.projectContainer {
+   margin: 0 1rem 2rem;
+   padding-top: 1rem;
+   background-color: #373f4b;
+   border-radius: 10px;
+}
+.projectContainer p {
+   padding: 0 1rem 1rem 1rem;
+   text-align: center;
+   font-family: "Helvetica", sans-serif;
+   font-size: 1rem;
+   line-height: 1.65rem;
+}
 .project {
    width: calc(100% - 2rem);
    height: auto;
    margin: 1rem;
+   margin-top: 0;
    /* display: flex;
    justify-content: center;
    align-items: center;
