@@ -3,17 +3,38 @@ import "./skills.css";
 
 class Skill extends Component {
    render() {
-      return (
-         <div className="htmlContainer">
-            <h2>{this.props.skill.title}</h2>
-            <img src={this.props.skill.img} alt="Skill" />
-            <ul>
-               {this.props.skill.details.map(detail => (
-                  <li>{detail}</li>
-               ))}
-            </ul>
-         </div>
-      );
+      const id = this.props.skill.id;
+      let skill;
+      skill =
+         id % 2 === 0
+            ? (skill = (
+                 <div className="skill">
+                    <ul>
+                       {this.props.skill.details.map(detail => (
+                          <li>{detail}</li>
+                       ))}
+                    </ul>
+                    <img
+                       src={this.props.skill.img}
+                       alt={this.props.skill.title}
+                    />
+                 </div>
+              ))
+            : (skill = (
+                 <div className="skill">
+                    <img
+                       src={this.props.skill.img}
+                       alt={this.props.skill.title}
+                    />
+                    <ul>
+                       {this.props.skill.details.map(detail => (
+                          <li>{detail}</li>
+                       ))}
+                    </ul>
+                 </div>
+              ));
+
+      return <React.Fragment>{skill}</React.Fragment>;
    }
 }
 

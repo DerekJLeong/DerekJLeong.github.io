@@ -15,7 +15,7 @@ class App extends Component {
             id: 1,
             title: "Portfolio Site V1",
             description:
-               "My original portfolio site, made using vanilla HTML, CSS, and JavaScript. Rebuilt and designed after discoving ReactJS to display new abilities.",
+               "My original portfolio site, made using vanilla HTML, CSS, and JavaScript. Rebuilt and designed after discoving React.js to display new abilities.",
             img: require("./components/images/portfolioProject.png"),
             demo: "",
             github: "https://github.com/DerekJLeong/DerekJLeong.github.io"
@@ -60,7 +60,7 @@ class App extends Component {
             id: 3,
             title: "JavaScript",
             img: require("./components/images/javascript.svg"),
-            details: ["ES6", "APIs", "JQuery", "ReactJS"]
+            details: ["ES6 JavaScript", "APIs", "npm", "jQuery", "React.js"]
          }
       ]
    };

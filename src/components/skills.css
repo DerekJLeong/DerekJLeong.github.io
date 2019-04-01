@@ -1,0 +1,28 @@
+/*  Overall Section Styling */
+.skills {
+   width: 100%;
+   display: block;
+   overflow: auto;
+   color: #ebecee;
+   background-color: #373f4b;
+}
+.skills h1 {
+   font-family: "EB Garamond", serif;
+   /* font-family: "Helvetica", sans-serif; */
+   font-size: 10vw;
+   margin: 3rem 2rem 1rem 2rem;
+   border-bottom: solid;
+   border-width: 5px;
+   border-color: #f3ce4c;
+}
+.skills p {
+   padding: 0 2rem 2rem;
+   text-align: left;
+   font-family: "Helvetica", sans-serif;
+   font-size: 1rem;
+   line-height: 1.65rem;
+}
+/* Syling for Each Skill */
+.skill {
+   display: inline-flex;
+}

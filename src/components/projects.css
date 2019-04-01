@@ -5,11 +5,18 @@
    color: #ebecee;
    background-color: #242c3a;
 }
+.projects p {
+   padding: 0 2rem 2rem;
+   text-align: left;
+   font-family: "Helvetica", sans-serif;
+   font-size: 1rem;
+   line-height: 1.65rem;
+}
 .projects h1 {
    font-family: "EB Garamond", serif;
    /* font-family: "Helvetica", sans-serif; */
    font-size: 10vw;
-   margin: 3rem 2rem 2rem 2rem;
+   margin: 3rem 2rem 1rem 2rem;
    border-bottom: solid;
    border-width: 5px;
    border-color: #189157;
