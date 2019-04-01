@@ -21,7 +21,7 @@ class Project extends Component {
                         <li>Demo</li>
                      </a>
 
-                     <a href="#">
+                     <a href={this.props.project.github}>
                         <li>GitHub</li>
                      </a>
                   </ul>

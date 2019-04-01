@@ -16,11 +16,13 @@ class About extends Component {
             <p>
                First, falling in love with computers, after building one in
                middle school, and later programming, after taking an
-               introduction course in high school. I enrolled at CSULB as a
-               Computer Science major for 2 years. My desire for more prompted
-               me to complete Udacity's Front End Developer Nanodegree program.
-               As it is one of my passions, I frequenty spend my free time
-               becoming a better developer.
+               introduction course in high school.
+            </p>
+            <p>
+               I enrolled at CSULB as a Computer Science major for 2 years. My
+               desire for more prompted me to leave and complete Udacity's Front
+               End Developer Nanodegree program. As it is one of my passions, I
+               frequenty spend my free time becoming a better developer.
             </p>
             <h2 className="colored">There is always more to be learned.</h2>
          </section>
