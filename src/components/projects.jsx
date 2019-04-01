@@ -9,6 +9,7 @@ class projects extends Component {
             {this.props.projects.map(project => (
                <Project key={project.id} project={project} />
             ))}
+            <div className="bar" />
          </section>
       );
    }
