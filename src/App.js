@@ -17,7 +17,8 @@ class App extends Component {
             description:
                "My original portfolio site, made using vanilla HTML, CSS, and JavaScript. Rebuilt and designed after discoving ReactJS to display new abilities.",
             img: require("./components/images/portfolioProject.png"),
-            link: ""
+            demo: "",
+            github: ""
          },
          {
             id: 2,
@@ -25,7 +26,8 @@ class App extends Component {
             description:
                "Based off of the classic game 'Concentration'. Demonstration of JavaScript DOM manipulation, event handling, and CSS animations.",
             img: require("./components/images/concentrationProject.png"),
-            link: ""
+            demo: "",
+            github: ""
          },
          {
             id: 3,
@@ -33,7 +35,8 @@ class App extends Component {
             description:
                "1 of 8 projects completed for Udacity Front End Nanodegree. Responsible for responsive redesign using CSS flex box/grid, ARIA accessibility, and service worker offline caching for multi-page application.",
             img: require("./components/images/restuarantProject.png"),
-            link: ""
+            demo: "",
+            github: ""
          }
       ]
    };

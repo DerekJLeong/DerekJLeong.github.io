@@ -88,7 +88,7 @@
    display: none;
    position: relative;
    font-family: "Helvetica", sans-serif;
-   color: whitesmoke;
+   color: #ebecee;
    border-radius: 0 0 9px 9px;
 }
 .projectHover h2 {
@@ -102,11 +102,13 @@
    flex-wrap: wrap;
    justify-content: space-evenly;
 }
+.projectHover a {
+   color: #ebecee;
+}
 .projectHover li {
    margin: 0 1rem 0 1rem;
    padding: 1rem 2rem;
    border-radius: 4px;
-   /* color: #373f4b; */
    font-size: 1.2rem;
    font-weight: bold;
    background-color: #189157;
@@ -114,22 +116,48 @@
 }
 .hoverContainer-1:hover .hoverTarget-1 {
    display: block;
-   animation: fadeInFromNone 0.17s cubic-bezier(0.66, -0.81, 0.68, 0.7),
-      slide-top 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;
+   animation: fadeInFromNone 0.2s cubic-bezier(0.66, -0.81, 0.68, 0.7),
+      slide-top 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;
 }
 .hoverContainer-2:hover .hoverTarget-2 {
    display: block;
-   animation: fadeInFromNone 0.17s cubic-bezier(0.66, -0.81, 0.68, 0.7),
-      slide-top 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;
+   animation: fadeInFromNone 0.2s cubic-bezier(0.66, -0.81, 0.68, 0.7),
+      slide-top 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;
 }
 .hoverContainer-3:hover .hoverTarget-3 {
    display: block;
-   animation: fadeInFromNone 0.17s cubic-bezier(0.66, -0.81, 0.68, 0.7),
-      slide-top 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;
+   animation: fadeInFromNone 0.2s cubic-bezier(0.66, -0.81, 0.68, 0.7),
+      slide-top 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;
 }
 .bar {
    width: calc(100% - 4rem);
    height: 5px;
    margin: 0 auto 3rem;
    background-color: #189157;
+}
+
+@keyframes slide-top {
+   0% {
+      transform: translateY(0);
+   }
+   100% {
+      transform: translateY(-100px);
+   }
+}
+
+@keyframes fadeInFromNone {
+   0% {
+      display: none;
+      opacity: 0;
+   }
+
+   1% {
+      display: block;
+      opacity: 0;
+   }
+
+   100% {
+      display: block;
+      opacity: 1;
+   }
 }

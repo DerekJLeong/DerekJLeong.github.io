@@ -17,8 +17,13 @@ class Project extends Component {
                <div class={this.getTargetClasses()}>
                   <h2>{this.props.project.title}</h2>
                   <ul>
-                     <li>Demo</li>
-                     <li>GitHub</li>
+                     <a href="#">
+                        <li>Demo</li>
+                     </a>
+
+                     <a href="#">
+                        <li>GitHub</li>
+                     </a>
                   </ul>
                </div>
             </div>
