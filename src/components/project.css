@@ -12,7 +12,7 @@
    margin: 3rem 2rem 2rem 2rem;
    border-bottom: solid;
    border-width: 5px;
-   border-color: #79b473;
+   border-color: #189157;
 }
 .projectContainer {
    position: relative;
@@ -91,20 +91,38 @@
    color: whitesmoke;
    border-radius: 0 0 9px 9px;
 }
+.projectHover h2 {
+   margin: 1rem;
+   text-align: center;
+   font-size: 1.6rem;
+}
+.projectHover ul {
+   width: 100%;
+   display: inline-flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+.projectHover li {
+   margin: 0 1rem 0 1rem;
+   padding: 1rem 2rem;
+   border-radius: 4px;
+   /* color: #373f4b; */
+   font-size: 1.2rem;
+   font-weight: bold;
+   background-color: #189157;
+   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
 .hoverContainer-1:hover .hoverTarget-1 {
-   background-color: #586273a2;
    display: block;
    animation: fadeInFromNone 0.17s cubic-bezier(0.66, -0.81, 0.68, 0.7),
       slide-top 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;
 }
 .hoverContainer-2:hover .hoverTarget-2 {
-   background-color: #586273a2;
    display: block;
    animation: fadeInFromNone 0.17s cubic-bezier(0.66, -0.81, 0.68, 0.7),
       slide-top 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;
 }
 .hoverContainer-3:hover .hoverTarget-3 {
-   background-color: #586273a2;
    display: block;
    animation: fadeInFromNone 0.17s cubic-bezier(0.66, -0.81, 0.68, 0.7),
       slide-top 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;

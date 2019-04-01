@@ -23,7 +23,7 @@ class App extends Component {
             id: 2,
             title: "Concentration Memory Game",
             description:
-               "Simple game based off of the classic Concentration. Demonstration of JavaScript DOM manipulation, event handling, and CSS animations.",
+               "Based off of the classic game 'Concentration'. Demonstration of JavaScript DOM manipulation, event handling, and CSS animations.",
             img: require("./components/images/concentrationProject.png"),
             link: ""
          },

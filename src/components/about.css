@@ -13,7 +13,7 @@
    margin: 3rem 2rem 2rem 2rem;
    border-bottom: solid;
    border-width: 5px;
-   border-color: #f25f5c;
+   border-color: #f15946;
 }
 .about h2 {
    font-family: "Helvetica", sans-serif;
@@ -45,7 +45,7 @@
 .colored {
    border-bottom: solid;
    border-width: 5px;
-   border-color: #f25f5c;
+   border-color: #f15946;
    /* padding: none; */
    margin: 2rem auto;
 }
