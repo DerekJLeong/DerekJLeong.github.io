@@ -9,11 +9,11 @@
 .skills h1 {
    font-family: "EB Garamond", serif;
    /* font-family: "Helvetica", sans-serif; */
-   font-size: 10vw;
+   font-size: 5rem;
    margin: 3rem 2rem 1rem 2rem;
    border-bottom: solid;
    border-width: 5px;
-   border-color: #f3ce4c;
+   border-color: #189157;
 }
 .skills p {
    padding: 0 2rem 2rem;
@@ -32,6 +32,7 @@
 .skill img {
    width: 30vw;
    height: 30vh;
+   margin: 1rem 2rem;
 }
 .skill ul {
    display: flex;
@@ -44,11 +45,18 @@
 .skill li {
    font-family: "Helvetica", sans-serif;
    font-size: 1.2rem;
-   line-height: 1.65rem;
+   line-height: 2rem;
+   font-weight: bold;
 }
 .odd {
-   background-color: #4b525d;
+   background-color: #5f656f;
 }
 .even {
-   background-color: #242c3a;
+   /* background-color: #242c3a; */
+}
+.skillsBar {
+   width: calc(100% - 4rem);
+   height: 5px;
+   margin: 0 auto 3rem;
+   background-color: #189157;
 }

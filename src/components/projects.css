@@ -15,11 +15,11 @@
 .projects h1 {
    font-family: "EB Garamond", serif;
    /* font-family: "Helvetica", sans-serif; */
-   font-size: 10vw;
+   font-size: 5rem;
    margin: 3rem 2rem 1rem 2rem;
    border-bottom: solid;
    border-width: 5px;
-   border-color: #189157;
+   border-color: #365fd8;
 }
 .projectContainer {
    position: relative;
@@ -118,7 +118,7 @@
    border-radius: 4px;
    font-size: 1.2rem;
    font-weight: bold;
-   background-color: #189157;
+   background-color: #365fd8;
    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 .hoverContainer-1:hover .hoverTarget-1 {
@@ -136,11 +136,11 @@
    animation: fadeInFromNone 0.2s cubic-bezier(0.66, -0.81, 0.68, 0.7),
       slide-top 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;
 }
-.bar {
+.projectBar {
    width: calc(100% - 4rem);
    height: 5px;
    margin: 0 auto 3rem;
-   background-color: #189157;
+   background-color: #365fd8;
 }
 
 @keyframes slide-top {

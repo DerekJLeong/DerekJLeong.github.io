@@ -7,11 +7,14 @@ class Projects extends Component {
       return (
          <section className="projects">
             <h1>Projects</h1>
-            <p>Insert Text Here</p>
+            <p>
+               Here are some of my recent projects. Select a project if you'd
+               like to see a demo or visit the GitHub repository.
+            </p>
             {this.props.projects.map(project => (
                <Project key={project.id} project={project} />
             ))}
-            <div className="bar" />
+            <div className="projectBar" />
          </section>
       );
    }
