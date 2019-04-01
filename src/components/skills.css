@@ -24,5 +24,31 @@
 }
 /* Syling for Each Skill */
 .skill {
-   display: inline-flex;
+   display: flex;
+   width: 100%;
+   height: auto;
+   justify-content: space-evenly;
+}
+.skill img {
+   width: 30vw;
+   height: 30vh;
+}
+.skill ul {
+   display: flex;
+   width: 50vw;
+   justify-content: center;
+   flex-flow: column;
+   text-align: center;
+   margin: 1rem;
+}
+.skill li {
+   font-family: "Helvetica", sans-serif;
+   font-size: 1.2rem;
+   line-height: 1.65rem;
+}
+.odd {
+   background-color: #4b525d;
+}
+.even {
+   background-color: #242c3a;
 }

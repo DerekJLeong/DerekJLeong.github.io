@@ -45,16 +45,14 @@ class App extends Component {
          {
             id: 1,
             title: "HTML",
-            img:
-               "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
-            details: ["HTML5", "Semantic", "Accessibility", "JSX"]
+            img: require("./components/images/html5.svg"),
+            details: ["HTML5", "Semantics", "Accessibility", "JSX"]
          },
          {
             id: 2,
             title: "CSS",
-            img:
-               "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
-            details: ["CSS3", "Flex Box/Grid", "Responsive", "Bootstrap"]
+            img: require("./components/images/css3.svg"),
+            details: ["CSS3", "Flexbox/Grid", "Responsive", "Bootstrap"]
          },
          {
             id: 3,

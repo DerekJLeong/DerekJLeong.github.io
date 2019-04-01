@@ -8,7 +8,7 @@ class Skill extends Component {
       skill =
          id % 2 === 0
             ? (skill = (
-                 <div className="skill">
+                 <div className="skill even">
                     <ul>
                        {this.props.skill.details.map(detail => (
                           <li>{detail}</li>
@@ -21,7 +21,7 @@ class Skill extends Component {
                  </div>
               ))
             : (skill = (
-                 <div className="skill">
+                 <div className="skill odd">
                     <img
                        src={this.props.skill.img}
                        alt={this.props.skill.title}
