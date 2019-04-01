@@ -34,11 +34,33 @@ class App extends Component {
             id: 3,
             title: "Restuarant Review Application",
             description:
-               "1 of 8 projects completed for Udacity Front End Nanodegree. Responsible for responsive redesign using CSS flex box/grid, ARIA accessibility, and service worker offline caching for multi-page application.",
+               "1 of 8 projects completed for Udacity Front End Nanodegree. Responsible for responsive redesign using CSS flex box/grid, accessibility, and service worker offline caching for multi-page application.",
             img: require("./components/images/restuarantProject.png"),
             demo: "",
             github:
                "https://github.com/DerekJLeong/Udacity-FE-Restuarant-App-stage-1"
+         }
+      ],
+      skills: [
+         {
+            id: 1,
+            title: "HTML",
+            img:
+               "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+            details: ["HTML5", "Semantic", "Accessibility", "JSX"]
+         },
+         {
+            id: 2,
+            title: "CSS",
+            img:
+               "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+            details: ["CSS3", "Flex Box/Grid", "Responsive", "Bootstrap"]
+         },
+         {
+            id: 3,
+            title: "JavaScript",
+            img: require("./components/images/javascript.svg"),
+            details: ["ES6", "APIs", "JQuery", "ReactJS"]
          }
       ]
    };
@@ -50,7 +72,7 @@ class App extends Component {
             <main>
                <About />
                <Projects projects={this.state.projects} />
-               <Skills />
+               <Skills skills={this.state.skills} />
                <Contact />
             </main>
             <Footer />
