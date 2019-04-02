@@ -19,13 +19,30 @@
    padding: 0 2rem 1rem;
    text-align: center;
    font-family: "Helvetica", sans-serif;
-   font-size: 1.1rem;
+   font-size: 1.25rem;
    font-weight: bold;
    line-height: 2.2rem;
 }
-.contact p:last-child {
+.contact p:nth-child(3) {
    font-size: 1.1rem;
    font-weight: normal;
    line-height: 1.65rem;
    color: #d7d8db;
+}
+.contactList {
+   margin: 1rem 2rem 2rem;
+   display: grid;
+   grid-template: 1fr 1fr / 1fr 1fr;
+   grid-gap: 2rem 2rem;
+   justify-items: center;
+}
+.contactList li img {
+   max-width: calc(42vw - 3rem);
+   height: auto;
+}
+.contactList a:nth-child(1):hover .contactHover,
+.contactList a:nth-child(2):hover .contactHover,
+.contactList a:nth-child(3):hover .contactHover,
+.contactList a:nth-child(4):hover .contactHover {
+   filter: grayscale(100%);
 }

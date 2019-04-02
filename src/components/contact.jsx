@@ -19,6 +19,50 @@ class Contact extends Component {
                including a PDF download for my resume. I look forward to hearing
                from you, cheers!
             </p>
+            <ul className="contactList">
+               <a
+                  href="mailto:derekjleong@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <li className="contactHover">
+                     <img src={require("./images/email.svg")} alt="Email" />
+                  </li>
+               </a>
+               <a
+                  href="https://www.linkedin.com/in/derekjleong/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <li className="contactHover">
+                     <img
+                        src={require("./images/linkedin.svg")}
+                        alt="LinkedIn"
+                     />
+                  </li>
+               </a>
+               <a
+                  href="https://github.com/DerekJLeong"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <li className="contactHover">
+                     <img src={require("./images/github.svg")} alt="GitHub" />
+                  </li>
+               </a>
+               <a
+                  href="mailto:derekjleong@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <li className="contactHover">
+                     <img
+                        src={require("./images/download.svg")}
+                        alt="Resume PDF"
+                     />
+                  </li>
+               </a>
+            </ul>
          </section>
       );
    }
