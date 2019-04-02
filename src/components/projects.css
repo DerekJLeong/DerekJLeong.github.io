@@ -4,6 +4,7 @@
    overflow: auto;
    color: #ebecee;
    background-color: #242c3a;
+   padding-bottom: 1rem;
 }
 .projects p {
    padding: 0 2rem 2rem;

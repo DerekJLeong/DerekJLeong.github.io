@@ -54,9 +54,3 @@
 .even {
    /* background-color: #242c3a; */
 }
-.skillsBar {
-   width: calc(100% - 4rem);
-   height: 5px;
-   margin: 0 auto 3rem;
-   background-color: #189157;
-}

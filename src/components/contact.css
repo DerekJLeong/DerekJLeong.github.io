@@ -1,0 +1,31 @@
+/*  Overall Section Styling */
+.contact {
+   width: 100%;
+   display: block;
+   overflow: auto;
+   color: #ebecee;
+   background-color: #242c3a;
+}
+.contact h1 {
+   font-family: "EB Garamond", serif;
+   /* font-family: "Helvetica", sans-serif; */
+   font-size: 5rem;
+   margin: 3rem 2rem 1rem 2rem;
+   border-bottom: solid;
+   border-width: 5px;
+   border-color: #f3ce4c;
+}
+.contact p {
+   padding: 0 2rem 1rem;
+   text-align: center;
+   font-family: "Helvetica", sans-serif;
+   font-size: 1.1rem;
+   font-weight: bold;
+   line-height: 2.2rem;
+}
+.contact p:last-child {
+   font-size: 1.1rem;
+   font-weight: normal;
+   line-height: 1.65rem;
+   color: #d7d8db;
+}

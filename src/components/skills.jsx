@@ -14,7 +14,6 @@ class Skills extends Component {
             {this.props.skills.map(skill => (
                <Skill key={skill.id} skill={skill} />
             ))}
-            <div className="skillsBar" />
          </section>
       );
    }
