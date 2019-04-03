@@ -23,3 +23,11 @@ ul,
 li {
    list-style-type: none;
 }
+footer {
+   text-align: center;
+   font-family: "Helvetica", sans-serif;
+   font-size: 1.2rem;
+   padding: 1rem;
+   background-color: #373f4b;
+   color: #d7d8db;
+}
