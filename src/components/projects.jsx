@@ -14,7 +14,6 @@ class Projects extends Component {
             {this.props.projects.map(project => (
                <Project key={project.id} project={project} />
             ))}
-            {/* <div className="projectBar" /> */}
          </section>
       );
    }

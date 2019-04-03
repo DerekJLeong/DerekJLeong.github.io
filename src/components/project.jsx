@@ -7,14 +7,14 @@ class Project extends Component {
          <div className={this.getContainerClass()}>
             <div className="project">
                <div className="projectHeader">
-                  <span class="headerDot dot1" />
-                  <span class="headerDot dot2" />
-                  <span class="headerDot dot3" />
+                  <span className="headerDot dot1" />
+                  <span className="headerDot dot2" />
+                  <span className="headerDot dot3" />
                   <h2>{this.props.project.title}</h2>
                </div>
 
                <img src={this.props.project.img} alt="project" />
-               <div class={this.getTargetClasses()}>
+               <div className={this.getTargetClasses()}>
                   <h2>{this.props.project.title}</h2>
                   <ul>
                      <a href="#">

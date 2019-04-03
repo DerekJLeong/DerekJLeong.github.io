@@ -5,6 +5,7 @@
    overflow: auto;
    color: #ebecee;
    background-color: #242c3a;
+   padding-bottom: 4rem;
 }
 .contact h1 {
    font-family: "EB Garamond", serif;
@@ -30,7 +31,7 @@
    color: #d7d8db;
 }
 .contactList {
-   margin: 1rem 2rem 2rem;
+   margin: 2rem;
    display: grid;
    grid-template: 1fr 1fr / 1fr 1fr;
    grid-gap: 2rem 2rem;
