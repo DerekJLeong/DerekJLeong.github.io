@@ -39,7 +39,7 @@
    width: 50vw;
    justify-content: center;
    flex-flow: column;
-   text-align: center;
+
    margin: 1rem;
 }
 .skill li {
@@ -50,7 +50,8 @@
 }
 .odd {
    background-color: #5f656f;
+   text-align: left;
 }
 .even {
-   /* background-color: #242c3a; */
+   text-align: right;
 }
