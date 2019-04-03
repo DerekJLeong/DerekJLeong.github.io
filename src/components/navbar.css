@@ -5,7 +5,7 @@ nav {
    top: 0;
    z-index: 98;
    background-image: radial-gradient(ellipse, #242c3a, #0c0f14);
-   display: flex;
+   display: none;
    flex-direction: column;
    justify-content: center;
    align-items: center;
@@ -26,7 +26,9 @@ nav a {
    height: 65px;
    background-size: cover;
 }
-
+.show {
+   display: flex;
+}
 .open {
    background-image: url("images/menu.svg");
 }

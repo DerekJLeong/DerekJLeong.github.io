@@ -18,19 +18,9 @@ class NavBar extends Component {
 
    render() {
       const isNavOpen = this.state.isNavOpen;
-      let nav;
+      let showToggle;
 
-      nav = isNavOpen
-         ? (nav = (
-              <nav>
-                 <a href="#about">About</a>
-                 <a href="#projects">Projects</a>
-                 <a href="#skills">Skills</a>
-                 <a href="#contact">Contact</a>
-                 <a href="#">Resume</a>
-              </nav>
-           ))
-         : null;
+      showToggle = isNavOpen ? "show" : null;
 
       return (
          <React.Fragment>
@@ -40,7 +30,23 @@ class NavBar extends Component {
                }
                onClick={this.handleClick}
             />
-            {nav}
+            <nav className={showToggle}>
+               <a href="#about" onClick={this.handleClick}>
+                  About
+               </a>
+               <a href="#projects" onClick={this.handleClick}>
+                  Projects
+               </a>
+               <a href="#skills" onClick={this.handleClick}>
+                  Skills
+               </a>
+               <a href="#contact" onClick={this.handleClick}>
+                  Contact
+               </a>
+               <a href="http://derekjleong.tech/" onClick={this.handleClick}>
+                  Resume
+               </a>
+            </nav>
          </React.Fragment>
       );
    }

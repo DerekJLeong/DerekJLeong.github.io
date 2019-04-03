@@ -64,15 +64,15 @@ class App extends Component {
             id: 4,
             title: "Learning",
             img: require("./components/images/think.svg"),
-            details: ["Quick Learner", "Adaptable", "Passionate", "Reliable"]
+            details: ["Quick Learner", "Passionate", "Adaptable", "Reliable"]
          }
       ]
    };
    render() {
       return (
-         <React.Fragment>
-            <Header />
+         <body>
             <NavBar />
+            <Header />
             <main>
                <About />
                <Projects projects={this.state.projects} />
@@ -80,7 +80,7 @@ class App extends Component {
                <Contact />
             </main>
             <Footer />
-         </React.Fragment>
+         </body>
       );
    }
 }

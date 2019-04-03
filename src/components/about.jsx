@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 import "./about.css";
 import placeholder from "./images/placeholder.png";
+import ScrollableAnchor from "react-scrollable-anchor";
 
 class About extends Component {
    render() {
       return (
          <section className="about">
-            <h1>About</h1>
+            <ScrollableAnchor id={"about"}>
+               <h1>About</h1>
+            </ScrollableAnchor>
             <img src={placeholder} className="placeholder" alt="placeholder" />
             <h2>Hi, my name is Derek and I’m a front end developer.</h2>
             <p>
