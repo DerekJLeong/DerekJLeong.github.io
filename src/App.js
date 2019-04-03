@@ -59,6 +59,12 @@ class App extends Component {
             title: "JavaScript",
             img: require("./components/images/javascript.svg"),
             details: ["ES6 JavaScript", "APIs", "npm", "jQuery", "React.js"]
+         },
+         {
+            id: 4,
+            title: "Learning",
+            img: require("./components/images/think.svg"),
+            details: ["Quick Learner", "Adaptable", "Passionate", "Reliable"]
          }
       ]
    };
