@@ -13,7 +13,8 @@ class Skills extends Component {
 
             <p>
                As a life long learner and seeker of knowledge, I enjoy honing
-               and expanding my capabilities in my spare time.
+               and expanding my capabilities in my spare time. These are the
+               reasons why you may consider working with me.
             </p>
             {this.props.skills.map(skill => (
                <Skill key={skill.id} skill={skill} />

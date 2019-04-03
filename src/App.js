@@ -24,7 +24,7 @@ class App extends Component {
             id: 2,
             title: "Concentration Memory Game",
             description:
-               "Based off of the classic game 'Concentration'. Demonstration of JavaScript DOM manipulation, event handling, and CSS animations.",
+               "1 of 8 different projects completed for Udacity Front End Nanodegree. Based off of the classic game 'Concentration'. Demonstration of JavaScript DOM manipulation, event handling, and CSS animations.",
             img: require("./components/images/concentrationProject.png"),
             demo: "",
             github:
@@ -34,7 +34,7 @@ class App extends Component {
             id: 3,
             title: "Restuarant Review Application",
             description:
-               "1 of 8 projects completed for Udacity Front End Nanodegree. Responsible for responsive redesign using CSS flex box/grid, accessibility, and service worker offline caching for multi-page application.",
+               "Another project completed as part of Front End Nanodegree. Responsible for responsive redesign using CSS flex box/grid, accessibility, and service worker offline caching for multi-page application.",
             img: require("./components/images/restuarantProject.png"),
             demo: "",
             github:
@@ -46,7 +46,7 @@ class App extends Component {
             id: 1,
             title: "HTML",
             img: require("./components/images/html5.svg"),
-            details: ["HTML5", "Semantics", "Accessibility", "JSX"]
+            details: ["HTML5", "Accessibility", "Semantics", "JSX"]
          },
          {
             id: 2,
@@ -58,7 +58,7 @@ class App extends Component {
             id: 3,
             title: "JavaScript",
             img: require("./components/images/javascript.svg"),
-            details: ["ES6 JavaScript", "APIs", "npm", "jQuery", "React.js"]
+            details: ["ES6 JavaScript", "React.js", "jQuery", "APIs", "npm"]
          },
          {
             id: 4,
