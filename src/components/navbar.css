@@ -22,8 +22,8 @@ nav a {
    margin: 1rem;
    top: 1rem;
    right: 1rem;
-   width: 65px;
-   height: 65px;
+   width: 64px;
+   height: 64px;
    background-size: cover;
 }
 .show {
@@ -41,10 +41,11 @@ nav a {
 }
 
 .open:hover {
-   animation: rotate-center 0.25s ease-out both;
+   animation: bigger 0.25s ease-in both;
 }
 .close:hover {
-   animation: rotate-center 0.25s ease-out reverse both;
+   animation: rotate-center 0.25s ease-out reverse both,
+      bigger 0.25s ease-in both;
 }
 
 @keyframes rotate-center {
@@ -53,5 +54,15 @@ nav a {
    }
    100% {
       transform: rotate(180deg);
+   }
+}
+@keyframes bigger {
+   0% {
+      width: 64px;
+      height: 64px;
+   }
+   100% {
+      width: 72px;
+      height: 72px;
    }
 }

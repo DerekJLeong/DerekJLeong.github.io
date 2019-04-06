@@ -11,7 +11,7 @@ class About extends Component {
                <h1>About</h1>
             </ScrollableAnchor>
             <img src={placeholder} className="placeholder" alt="placeholder" />
-            <h2>Hi, my name is Derek and I’m a front end developer.</h2>
+            <h2>Hi, my name is Derek and I’m a Front End Developer.</h2>
             <p>
                My passion for programming and technology goes back nearly a
                decade.

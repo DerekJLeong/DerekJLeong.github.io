@@ -1,4 +1,37 @@
 @media only screen and (min-width: 768px) {
+   .about {
+      display: flex;
+      flex-wrap: wrap;
+      /* justify-content: space-evenly; */
+      /* padding: 2rem; */
+   }
+   .about h1 {
+      width: 100%;
+   }
+   .about img {
+      display: block;
+      padding-left: 2rem;
+      width: calc(50vw - 4rem);
+      height: calc(50vw - 4rem);
+      max-width: 512px;
+      max-height: 512px;
+   }
+   .about h2 {
+      display: flex;
+      width: calc(50vw - 2rem);
+      height: auto;
+      text-align: left;
+      align-items: center;
+      margin: 0 0 0 1rem;
+      line-height: 3.5rem;
+   }
+   .about h2:last-of-type {
+      width: 100%;
+      text-align: center;
+   }
+   .about p:first-of-type {
+      padding-top: 2rem;
+   }
 }
 
 @media only screen and (min-width: 1024px) {

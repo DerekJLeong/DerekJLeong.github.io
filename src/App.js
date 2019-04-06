@@ -7,6 +7,7 @@ import Skills from "./components/skills";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import "./App.css";
+import "./components/responsive.css";
 
 class App extends Component {
    state = {
