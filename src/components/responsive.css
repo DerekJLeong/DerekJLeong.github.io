@@ -76,6 +76,31 @@
    .skill ul {
       width: 25vw;
    }
+
+   .contact {
+      padding-bottom: 1rem;
+   }
+   .contact h1 {
+      margin-bottom: 2rem;
+   }
+   .contact p {
+      font-size: 1.65rem;
+      line-height: 3rem;
+   }
+   .contact p:nth-child(3) {
+      font-size: 1.3rem;
+      line-height: 1.85rem;
+   }
+   .contactList {
+      margin: 2rem;
+      grid-template: auto / 1fr 1fr 1fr 1fr;
+      grid-gap: 2rem;
+      justify-items: center;
+   }
+   .contactList li img {
+      max-width: calc(20vw - 2rem);
+      height: auto;
+   }
 }
 
 @media only screen and (min-width: 1024px) {

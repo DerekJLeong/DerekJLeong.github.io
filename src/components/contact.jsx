@@ -12,9 +12,9 @@ class Contact extends Component {
             <p>
                Interested in working with me?
                <br />
-               Just want to talk tech?
-               <br />
                Need help or have any questions?
+               <br />
+               Just want to talk tech?
                <br />
             </p>
             <p>
