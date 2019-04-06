@@ -13,7 +13,7 @@ class Skills extends Component {
 
             <p>
                As a life long learner and seeker of knowledge, I enjoy honing
-               and expanding my capabilities in my spare time. These are the
+               and expanding my capabilities in my spare time. The following are
                reasons why you may consider working with me.
             </p>
             {this.props.skills.map(skill => (
