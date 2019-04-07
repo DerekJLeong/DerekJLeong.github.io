@@ -18,7 +18,7 @@
    }
    .about h2 {
       display: flex;
-      max-width: calc(48vw - 3rem);
+      width: calc(48vw - 3rem);
       height: auto;
       text-align: left;
       align-items: center;
@@ -27,7 +27,8 @@
       line-height: 3.75rem;
    }
    .about h2:last-of-type {
-      max-width: 100%;
+      width: 100%;
+      display: inline;
       text-align: center;
    }
    .about p {
