@@ -1,4 +1,36 @@
 @media only screen and (min-width: 768px) {
+   nav {
+      height: 80px;
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      opacity: 0.8;
+   }
+   nav a {
+      font-size: 1.65rem;
+      margin: 0;
+      padding: 1rem;
+   }
+   nav a:last-child {
+      margin-right: 2rem;
+   }
+   .navButton {
+      top: 0;
+      left: 2rem;
+      margin: 0;
+      height: 80px;
+      width: 104px;
+      opacity: 0.8;
+   }
+   .open,
+   .close {
+      background-image: url("images/logo.png");
+   }
+   .open:hover,
+   .close:hover {
+      animation: none;
+   }
+
    .about {
       display: flex;
       flex-wrap: wrap;
