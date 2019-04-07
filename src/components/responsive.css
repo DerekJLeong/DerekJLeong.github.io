@@ -7,12 +7,15 @@
       opacity: 0.8;
    }
    nav a {
-      font-size: 1.65rem;
+      font-size: 1.7rem;
       margin: 0;
       padding: 1rem;
    }
    nav a:last-child {
-      margin-right: 2rem;
+      margin-right: 3.7rem;
+   }
+   nav a img {
+      width: 1.7rem;
    }
    .navButton {
       top: 0;

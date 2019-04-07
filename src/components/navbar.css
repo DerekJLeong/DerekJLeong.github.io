@@ -16,6 +16,12 @@ nav a {
    margin: 2rem 1rem;
    color: #ebecee;
 }
+nav a img {
+   position: absolute;
+   width: 2rem;
+   height: auto;
+   padding-left: 0.5rem;
+}
 .navButton {
    z-index: 99;
    position: fixed;

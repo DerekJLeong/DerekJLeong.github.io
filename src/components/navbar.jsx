@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./navbar.css";
+import smallIcon from "./images/downloadSmall.svg";
 
 class NavBar extends Component {
    constructor(props) {
@@ -63,6 +64,7 @@ class NavBar extends Component {
                </a>
                <a href="http://derekjleong.tech/" onClick={this.handleClick}>
                   Resume
+                  <img src={smallIcon} alt="Small download icon" />
                </a>
             </nav>
          </React.Fragment>
