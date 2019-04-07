@@ -22,6 +22,7 @@
    border-width: 5px;
    border-color: #365fd8;
 }
+
 .projectContainer {
    position: relative;
    margin: 0 1rem 2rem;
@@ -140,11 +141,10 @@
    animation: fadeInFromNone 0.2s cubic-bezier(0.66, -0.81, 0.68, 0.7),
       slide-top 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;
 }
-.projectBar {
-   width: calc(100% - 4rem);
-   height: 5px;
-   margin: 0 auto 3rem;
-   background-color: #365fd8;
+.hoverContainer-4:hover .hoverTarget-4 {
+   display: block;
+   animation: fadeInFromNone 0.2s cubic-bezier(0.66, -0.81, 0.68, 0.7),
+      slide-top 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both;
 }
 
 @keyframes slide-top {
