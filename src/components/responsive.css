@@ -4,7 +4,7 @@
       display: inline-flex;
       flex-direction: row;
       justify-content: flex-end;
-      opacity: 0.8;
+      opacity: 0.9;
    }
    nav a {
       font-size: 1.7rem;
@@ -23,7 +23,7 @@
       margin: 0;
       height: 80px;
       width: 104px;
-      opacity: 0.8;
+      opacity: 0.9;
    }
    .open,
    .close {

@@ -16,6 +16,18 @@ nav a {
    margin: 2rem 1rem;
    color: #ebecee;
 }
+nav a:nth-of-type(1):hover {
+   text-decoration-color: #f15946;
+}
+nav a:nth-of-type(2):hover {
+   text-decoration-color: #365fd8;
+}
+nav a:nth-of-type(3):hover {
+   text-decoration-color: #f3ce4c;
+}
+nav a:nth-of-type(4):hover {
+   text-decoration-color: #1baa65;
+}
 nav a img {
    position: absolute;
    width: 2rem;
