@@ -5,9 +5,24 @@ class NavBar extends Component {
    constructor(props) {
       super(props);
       this.handleClick = this.handleClick.bind(this);
+      this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
       this.state = {
-         isNavOpen: false
+         isNavOpen: false,
+         width: 0
       };
+   }
+
+   componentDidMount() {
+      this.updateWindowDimensions();
+      window.addEventListener("resize", this.updateWindowDimensions);
+   }
+
+   componentWillUnmount() {
+      window.removeEventListener("resize", this.updateWindowDimensions);
+   }
+
+   updateWindowDimensions() {
+      this.setState({ width: window.innerWidth });
    }
 
    handleClick() {
@@ -18,9 +33,12 @@ class NavBar extends Component {
 
    render() {
       const isNavOpen = this.state.isNavOpen;
+      const viewWidth = this.state.width;
+
       let showToggle;
 
-      showToggle = isNavOpen ? "show" : null;
+      // showToggle = isNavOpen ? "show" : null;
+      showToggle = viewWidth >= 768 ? "show" : isNavOpen ? "show" : null;
 
       return (
          <React.Fragment>
