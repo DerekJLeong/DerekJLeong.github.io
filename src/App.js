@@ -80,7 +80,7 @@ class App extends Component {
    };
    render() {
       return (
-         <body>
+         <React.Fragment>
             <NavBar />
             <Header />
             <main>
@@ -90,7 +90,7 @@ class App extends Component {
                <Contact />
             </main>
             <Footer />
-         </body>
+         </React.Fragment>
       );
    }
 }
