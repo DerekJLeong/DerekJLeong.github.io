@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./contact.css";
 import ScrollableAnchor from "react-scrollable-anchor";
+import Logo from "./images/logo.png";
 
 class Contact extends Component {
    render() {
@@ -9,6 +10,7 @@ class Contact extends Component {
             <ScrollableAnchor id={"contact"}>
                <h1>Contact</h1>
             </ScrollableAnchor>
+            <img src={Logo} alt="DJL logo" />
             <p>
                Interested in working with me?
                <br />

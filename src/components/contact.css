@@ -16,6 +16,12 @@
    border-width: 5px;
    border-color: #1baa65;
 }
+.contact img {
+   display: block;
+   width: 40vw;
+   height: auto;
+   margin: auto;
+}
 .contact p {
    padding: 0 2rem 1rem;
    text-align: center;
