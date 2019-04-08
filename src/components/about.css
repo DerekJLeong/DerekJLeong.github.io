@@ -39,6 +39,7 @@
    color: #d7d8db;
 }
 .placeholder {
+   max-width: 512px;
    width: 100%;
    height: auto;
 }

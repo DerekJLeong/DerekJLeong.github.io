@@ -89,12 +89,12 @@
       line-height: 2rem;
       padding: 0 6rem 2rem;
    }
-   .hoverContainer-1,
-   .hoverContainer-3 {
+   .projectContainer:nth-last-of-type(1),
+   .projectContainer:nth-last-of-type(3) {
       margin: 0 1rem 2rem 2rem;
    }
-   .hoverContainer-2,
-   .hoverContainer-4 {
+   .projectContainer:nth-last-of-type(2),
+   .projectContainer:nth-last-of-type(4) {
       margin: 0 2rem 2rem 1rem;
    }
    .projectContainer p {
@@ -141,30 +141,59 @@
 }
 
 @media only screen and (min-width: 1024px) {
+   .about h1 {
+      margin: 2rem 10%;
+   }
+   .about img {
+      padding-left: 10%;
+   }
    .about h2 {
       font-size: 3.35rem;
+      width: calc(50vw - 10%);
    }
-
+   .about h2:last-of-type {
+      margin: 1rem 10% 2rem;
+   }
+   .about p {
+      max-width: 800px;
+      margin: 0 auto;
+   }
    .projects {
       display: grid;
-      grid-template: auto / 1fr 1fr 1fr;
+      grid-template: auto / 10% 1fr 1fr 1fr 10%;
    }
    .projects h1 {
-      grid-column: 1 / 4;
+      grid-column: 2 / 5;
+      width: 100%;
+      margin: 2rem 0 1rem;
    }
    .projects p {
-      grid-column: 1 / 4;
+      grid-column: 2 / 5;
+      padding: 0 0 0 0;
+      margin: 0 auto;
       font-size: 1.3rem;
       line-height: 2rem;
       padding: 0 6rem 2rem;
    }
-   .hoverContainer-1,
-   .hoverContainer-3 {
-      margin: 0 1rem 2rem 2rem;
+   .projectContainer:nth-of-type(1) {
+      grid-column: 2 / 3;
+      grid-row: 3;
+      margin: 1rem;
    }
-   .hoverContainer-2,
-   .hoverContainer-4 {
-      margin: 0 2rem 2rem 1rem;
+   .projectContainer:nth-of-type(2) {
+      grid-column: 3 / 4;
+      grid-row: 3;
+      margin: 1rem;
+   }
+   .projectContainer:nth-of-type(3) {
+      grid-column: 4 / 5;
+      grid-row: 3;
+      margin: 1rem;
+   }
+   .projectContainer:nth-of-type(4) {
+      grid-column: 2 / 3;
+      grid-row: 4;
+      margin: 1rem;
    }
    .projectContainer p {
       padding: 0 1rem 1rem 1rem;
@@ -204,8 +233,14 @@
       grid-column: 2 / 3;
       grid-row: 4;
    }
+
+   .contactList li img {
+      max-width: 172px;
+      height: auto;
+   }
+
    main {
-      max-width: 1024px;
-      margin: auto;
+      /* max-width: 1024px; */
+      /* margin: auto; */
    }
 }
