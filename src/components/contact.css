@@ -30,7 +30,7 @@
    font-weight: bold;
    line-height: 2.2rem;
 }
-.contact p:nth-child(3) {
+.contact p:nth-of-type(2) {
    font-size: 1.1rem;
    font-weight: normal;
    line-height: 1.65rem;
