@@ -145,13 +145,17 @@
       margin: 2rem 10%;
    }
    .about img {
-      padding-left: 10%;
-      margin: 0;
+      object-fit: cover;
+      max-width: 512px;
+      max-height: 512px;
+      padding: 0;
+      margin-right: 0;
+      margin-left: auto;
    }
    .about h2 {
       font-size: 3.35rem;
-      width: calc(40vw - 10%);
-      margin-right: 10%;
+      width: 30%;
+      margin-right: auto;
    }
    .about h2:last-of-type {
       margin: 1rem 10% 2rem;
@@ -159,6 +163,9 @@
    .about p {
       max-width: 800px;
       margin: 0 auto;
+   }
+   .about p:first-of-type {
+      width: 800px;
    }
    .projects {
       display: grid;
@@ -199,6 +206,10 @@
    }
    .projectContainer p {
       padding: 0 1rem 1rem 1rem;
+   }
+   .projectHover li {
+      /* padding: .75rem 1rem; */
+      margin: 0.5rem;
    }
 
    .skills {
@@ -260,6 +271,7 @@
       height: auto;
       grid-column: 2 / 3;
       grid-row: 5;
+      margin: 2rem 10%;
    }
    .contactList li img {
       width: 124px;
