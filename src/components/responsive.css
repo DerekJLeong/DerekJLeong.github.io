@@ -222,6 +222,9 @@
    .skills p {
       grid-column: 2 / 4;
    }
+   .skill {
+      padding: 2rem 0;
+   }
    .skill img {
       width: 15vw;
       height: 20vh;
@@ -239,7 +242,6 @@
    }
    .skill:nth-of-type(3) {
       grid-column: 3 / 4;
-
       grid-row: 3;
    }
    .skill:nth-of-type(4) {
