@@ -38,10 +38,12 @@
    line-height: 1.5rem;
    color: #d7d8db;
 }
-.placeholder {
+.about img {
+   display: block;
    max-width: 512px;
    width: 100%;
    height: auto;
+   margin: 0 auto;
 }
 .colored {
    border-bottom: solid;
