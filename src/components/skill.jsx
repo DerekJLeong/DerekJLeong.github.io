@@ -11,7 +11,7 @@ class Skill extends Component {
                  <div className="skill even">
                     <ul>
                        {this.props.skill.details.map(detail => (
-                          <li>{detail}</li>
+                          <li key={detail}>{detail}</li>
                        ))}
                     </ul>
                     <img
@@ -28,7 +28,7 @@ class Skill extends Component {
                     />
                     <ul>
                        {this.props.skill.details.map(detail => (
-                          <li>{detail}</li>
+                          <li key={detail}>{detail}</li>
                        ))}
                     </ul>
                  </div>
