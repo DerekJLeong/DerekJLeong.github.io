@@ -8,6 +8,7 @@ import Contact from "./components/contact";
 import Footer from "./components/footer";
 import "./App.css";
 import "./components/responsive.css";
+import "./components/animations.css";
 
 class App extends Component {
    state = {
