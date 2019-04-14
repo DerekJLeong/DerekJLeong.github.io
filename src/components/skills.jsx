@@ -9,11 +9,14 @@ class Skills extends Component {
    render() {
       return (
          <section className="skills">
+            <Slide left>
+               <h1>Skills</h1>
+            </Slide>
+
             <ScrollableAnchor id={"skills"}>
-               <Slide left>
-                  <h1>Skills</h1>
-               </Slide>
+               <span />
             </ScrollableAnchor>
+
             <Fade left>
                <p>
                   As a life long learner and seeker of knowledge, I enjoy honing

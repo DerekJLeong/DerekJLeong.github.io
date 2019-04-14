@@ -9,11 +9,14 @@ class About extends Component {
    render() {
       return (
          <section className="about">
+            <Slide left>
+               <h1>About</h1>
+            </Slide>
+
             <ScrollableAnchor id={"about"}>
-               <Slide left>
-                  <h1>About</h1>
-               </Slide>
+               <span />
             </ScrollableAnchor>
+
             <Fade left>
                <img
                   src={placeholder}

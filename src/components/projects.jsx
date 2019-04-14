@@ -9,11 +9,14 @@ class Projects extends Component {
    render() {
       return (
          <section className="projects">
+            <Slide right>
+               <h1>Projects</h1>
+            </Slide>
+
             <ScrollableAnchor id={"projects"}>
-               <Slide right>
-                  <h1>Projects</h1>
-               </Slide>
+               <span />
             </ScrollableAnchor>
+
             <Fade right>
                <p>
                   Here are some of my recent projects. Select a project if you'd

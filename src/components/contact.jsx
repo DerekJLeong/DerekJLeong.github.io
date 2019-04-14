@@ -9,11 +9,14 @@ class Contact extends Component {
    render() {
       return (
          <section className="contact">
+            <Slide right>
+               <h1>Contact</h1>
+            </Slide>
+
             <ScrollableAnchor id={"contact"}>
-               <Slide right>
-                  <h1>Contact</h1>
-               </Slide>
+               <span />
             </ScrollableAnchor>
+
             <Fade right>
                <img src={Logo} alt="DJL logo" />
             </Fade>
