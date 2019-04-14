@@ -14,7 +14,7 @@ class About extends Component {
                   <h1>About</h1>
                </Slide>
             </ScrollableAnchor>
-            <Fade>
+            <Fade left>
                <img
                   src={placeholder}
                   className="placeholder"
@@ -22,7 +22,7 @@ class About extends Component {
                />
                <h2>Hi, my name is Derek and I’m a Front End Developer.</h2>
             </Fade>
-            <Slide right>
+            <Fade top>
                <p>
                   With have long standing love for programming and technology,
                   my work truly is my passion.
@@ -40,7 +40,7 @@ class About extends Component {
                   for work both remote and on site. Let's bring your ideas to
                   life!
                </p>
-            </Slide>
+            </Fade>
             <Slide left>
                <h2 className="colored">There is always more to be learned.</h2>
             </Slide>
