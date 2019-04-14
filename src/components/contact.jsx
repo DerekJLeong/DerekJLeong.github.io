@@ -17,9 +17,6 @@ class Contact extends Component {
                <span />
             </ScrollableAnchor>
 
-            <Fade right>
-               <img src={Logo} alt="DJL logo" />
-            </Fade>
             <Fade top>
                <p>
                   Interested in working with me?
@@ -35,7 +32,7 @@ class Contact extends Component {
                   hearing from you, cheers!
                </p>
             </Fade>
-            <Fade bottom>
+            <Fade right>
                <ul className="contactList">
                   <a
                      href="mailto:derekjleong@gmail.com"
@@ -83,6 +80,9 @@ class Contact extends Component {
                      </li>
                   </a>
                </ul>
+            </Fade>
+            <Fade bottom>
+               <img src={Logo} alt="DJL logo" />
             </Fade>
          </section>
       );
