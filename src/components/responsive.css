@@ -217,6 +217,7 @@
    }
    .skills h1 {
       grid-column: 2 / 4;
+      margin: 4rem 0 2rem;
    }
    .skills p {
       grid-column: 2 / 4;
@@ -255,6 +256,7 @@
    .contact h1 {
       grid-column: 2 / 3;
       grid-row: 1;
+      margin: 4rem 0 2rem;
    }
    .contact img {
       grid-column: 2 / 3;
