@@ -38,6 +38,9 @@
    line-height: 1.5rem;
    color: #d7d8db;
 }
+.imgDiv {
+   text-align: center;
+}
 .about img {
    display: block;
    max-width: 512px;

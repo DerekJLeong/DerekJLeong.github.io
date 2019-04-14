@@ -9,20 +9,23 @@ class About extends Component {
    render() {
       return (
          <section className="about">
-            <Slide left>
-               <h1>About</h1>
-            </Slide>
-
             <ScrollableAnchor id={"about"}>
                <span />
             </ScrollableAnchor>
 
+            <Slide left>
+               <h1>About</h1>
+            </Slide>
+
             <Fade left>
-               <img
-                  src={placeholder}
-                  className="placeholder"
-                  alt="placeholder"
-               />
+               <div className="imgDiv">
+                  <img
+                     src={placeholder}
+                     className="placeholder"
+                     alt="placeholder"
+                  />
+               </div>
+
                <h2>Hi, my name is Derek and I’m a Front End Developer.</h2>
             </Fade>
             <Fade top>
