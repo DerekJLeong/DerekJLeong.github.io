@@ -1,23 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "b3989bf59381b6fb56e8a4a4020120ad",
-    "url": "/static/media/email.b3989bf5.svg"
+    "revision": "29e69fcdf58d87c6cd12730ba5f7a22c",
+    "url": "/static/media/linkedin.29e69fcd.svg"
   },
   {
-    "revision": "69617bcc5bb8d414e2a8",
-    "url": "/static/css/main.a9cb4a18.chunk.css"
+    "revision": "076c15a77afc3ff7d428",
+    "url": "/static/css/main.fe2c0197.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "669356dc55c0e8ab4666",
-    "url": "/static/js/2.29321930.chunk.js"
-  },
-  {
-    "revision": "6436c0ee8f80e8f506d2e91ab341b27a",
-    "url": "/static/media/portfolioProject.6436c0ee.png"
+    "revision": "ecba01d67f4ad0d93abc",
+    "url": "/static/js/2.5a295ee3.chunk.js"
   },
   {
     "revision": "76f67f87144ff229a3a2ca9f98f029c4",
@@ -36,20 +32,20 @@ self.__precacheManifest = [
     "url": "/static/media/down-arrow.b8192d10.svg"
   },
   {
-    "revision": "c3869f6766914e88d3eacbbeaadc1478",
-    "url": "/static/media/close.c3869f67.svg"
-  },
-  {
     "revision": "3fb49c449f95bbb625cc8c27faa40533",
     "url": "/static/media/menu.3fb49c44.svg"
   },
   {
-    "revision": "69617bcc5bb8d414e2a8",
-    "url": "/static/js/main.d23053e3.chunk.js"
+    "revision": "c3869f6766914e88d3eacbbeaadc1478",
+    "url": "/static/media/close.c3869f67.svg"
   },
   {
-    "revision": "29e69fcdf58d87c6cd12730ba5f7a22c",
-    "url": "/static/media/linkedin.29e69fcd.svg"
+    "revision": "b3989bf59381b6fb56e8a4a4020120ad",
+    "url": "/static/media/email.b3989bf5.svg"
+  },
+  {
+    "revision": "076c15a77afc3ff7d428",
+    "url": "/static/js/main.ba965eb2.chunk.js"
   },
   {
     "revision": "d631fdfdfca2554b6d951e3237d4f8da",
@@ -58,6 +54,14 @@ self.__precacheManifest = [
   {
     "revision": "b198bab3892b70f06560a3c094a1d2c8",
     "url": "/static/media/download.b198bab3.svg"
+  },
+  {
+    "revision": "7c5cff46e65a202e0500e2ca400f2fcd",
+    "url": "/static/media/portfolioProject2.7c5cff46.png"
+  },
+  {
+    "revision": "6436c0ee8f80e8f506d2e91ab341b27a",
+    "url": "/static/media/portfolioProject1.6436c0ee.png"
   },
   {
     "revision": "0d80cf99fdec8f37dac5d1ede3ba4844",
@@ -84,7 +88,7 @@ self.__precacheManifest = [
     "url": "/static/media/think.a0f3643b.svg"
   },
   {
-    "revision": "6a6ace94c6998f4ca0e05dee52d1a5b3",
+    "revision": "8e41daa5f5d09637bc9d8b96fbd63b17",
     "url": "/index.html"
   }
 ];
