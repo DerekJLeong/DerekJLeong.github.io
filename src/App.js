@@ -28,7 +28,7 @@ class App extends Component {
             description:
                "My original portfolio site, made using vanilla HTML, CSS, and JavaScript. Rebuilt and designed after discoving React.js to display new abilities.",
             img: require("./components/images/portfolioProject.png"),
-            demo: "",
+            demo: "http://derekjleong.tech/portfolio-site-v1/",
             github: "https://github.com/DerekJLeong/DerekJLeong.github.io"
          },
          {
