@@ -37,7 +37,7 @@ class App extends Component {
             description:
                "1 of 8 different projects completed for Udacity Front End Nanodegree. Responsible for responsive redesign using CSS flex box/grid, accessibility, and service worker offline caching for multi-page application.",
             img: require("./components/images/restuarantProject.png"),
-            demo: "",
+            demo: "http://derekjleong.tech/Udacity-FE-Restuarant-App-stage-1/",
             github:
                "https://github.com/DerekJLeong/Udacity-FE-Restuarant-App-stage-1"
          },
@@ -47,7 +47,7 @@ class App extends Component {
             description:
                "Another project completed as part of Front End Nanodegree. Based off of the classic game 'Concentration'. Demonstration of JavaScript DOM manipulation, event handling, and CSS animations.",
             img: require("./components/images/concentrationProject.png"),
-            demo: "",
+            demo: "http://derekjleong.tech/memory-game/",
             github:
                "https://github.com/DerekJLeong/Udacity-FE-Memory-Game/tree/master/Front%20End%20Project%20-%20Memory%20Game"
          }
