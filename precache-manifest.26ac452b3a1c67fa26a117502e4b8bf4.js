@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/email.b3989bf5.svg"
   },
   {
-    "revision": "e63d3ad253fe430f9884",
-    "url": "/static/css/main.c0e68e1d.chunk.css"
+    "revision": "b28df0e59c7ce2a360cc",
+    "url": "/static/css/main.88dc0141.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -44,16 +44,16 @@ self.__precacheManifest = [
     "url": "/static/media/down-arrow.b8192d10.svg"
   },
   {
-    "revision": "c3869f6766914e88d3eacbbeaadc1478",
-    "url": "/static/media/close.c3869f67.svg"
-  },
-  {
     "revision": "56a6124d13e1efd2036faacd7f88a7e1",
     "url": "/static/media/menu.56a6124d.svg"
   },
   {
-    "revision": "e63d3ad253fe430f9884",
-    "url": "/static/js/main.c6549899.chunk.js"
+    "revision": "c3869f6766914e88d3eacbbeaadc1478",
+    "url": "/static/media/close.c3869f67.svg"
+  },
+  {
+    "revision": "b28df0e59c7ce2a360cc",
+    "url": "/static/js/main.d4b3b66e.chunk.js"
   },
   {
     "revision": "29e69fcdf58d87c6cd12730ba5f7a22c",
@@ -66,6 +66,10 @@ self.__precacheManifest = [
   {
     "revision": "b198bab3892b70f06560a3c094a1d2c8",
     "url": "/static/media/download.b198bab3.svg"
+  },
+  {
+    "revision": "ef0a9500f33078d23996f8d68bc2370e",
+    "url": "/static/media/2048BitcoinEdition.ef0a9500.png"
   },
   {
     "revision": "7c5cff46e65a202e0500e2ca400f2fcd",
@@ -100,7 +104,7 @@ self.__precacheManifest = [
     "url": "/static/media/think.a0f3643b.svg"
   },
   {
-    "revision": "21e80de0073aa0d06ab7c9b3c9f37113",
+    "revision": "63a0a42e8e86e0fb128cf4fe6c571e42",
     "url": "/index.html"
   }
 ];
