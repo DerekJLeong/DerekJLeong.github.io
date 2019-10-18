@@ -1,13 +1,13 @@
 {
   "main.css": "/static/css/main.79c84a17.chunk.css",
-  "main.js": "/static/js/main.e265c28b.chunk.js",
-  "main.js.map": "/static/js/main.e265c28b.chunk.js.map",
+  "main.js": "/static/js/main.dc3c966a.chunk.js",
+  "main.js.map": "/static/js/main.dc3c966a.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
   "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
   "static/js/2.0aecac7c.chunk.js": "/static/js/2.0aecac7c.chunk.js",
   "static/js/2.0aecac7c.chunk.js.map": "/static/js/2.0aecac7c.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.e02db7e6ac8ea84dd8c3880eac3dece9.js": "/precache-manifest.e02db7e6ac8ea84dd8c3880eac3dece9.js",
+  "precache-manifest.73c3a526a77ad317839d751ee5423e92.js": "/precache-manifest.73c3a526a77ad317839d751ee5423e92.js",
   "service-worker.js": "/service-worker.js",
   "static/css/main.79c84a17.chunk.css.map": "/static/css/main.79c84a17.chunk.css.map",
   "static/media/2048BitcoinEdition.png": "/static/media/2048BitcoinEdition.ef0a9500.png",
@@ -29,6 +29,6 @@
   "static/media/portfolioProject1.png": "/static/media/portfolioProject1.6436c0ee.png",
   "static/media/portfolioProject2.png": "/static/media/portfolioProject2.7c5cff46.png",
   "static/media/restuarantProject.png": "/static/media/restuarantProject.0d80cf99.png",
-  "static/media/resume.svg": "/static/media/resume.971ee7bb.svg",
+  "static/media/resume.svg": "/static/media/resume.d185d7c9.svg",
   "static/media/think.svg": "/static/media/think.a0f3643b.svg"
 }
