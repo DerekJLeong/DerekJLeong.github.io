@@ -1,13 +1,13 @@
 {
   "main.css": "/static/css/main.79c84a17.chunk.css",
-  "main.js": "/static/js/main.3561341d.chunk.js",
-  "main.js.map": "/static/js/main.3561341d.chunk.js.map",
+  "main.js": "/static/js/main.e265c28b.chunk.js",
+  "main.js.map": "/static/js/main.e265c28b.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
   "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
   "static/js/2.0aecac7c.chunk.js": "/static/js/2.0aecac7c.chunk.js",
   "static/js/2.0aecac7c.chunk.js.map": "/static/js/2.0aecac7c.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.f0832973990e049c053687cc61536388.js": "/precache-manifest.f0832973990e049c053687cc61536388.js",
+  "precache-manifest.e02db7e6ac8ea84dd8c3880eac3dece9.js": "/precache-manifest.e02db7e6ac8ea84dd8c3880eac3dece9.js",
   "service-worker.js": "/service-worker.js",
   "static/css/main.79c84a17.chunk.css.map": "/static/css/main.79c84a17.chunk.css.map",
   "static/media/2048BitcoinEdition.png": "/static/media/2048BitcoinEdition.ef0a9500.png",
@@ -15,7 +15,6 @@
   "static/media/concentrationProject.png": "/static/media/concentrationProject.d20deb59.png",
   "static/media/css3.svg": "/static/media/css3.6971ddc7.svg",
   "static/media/header.css": "/static/media/down-arrow.b8192d10.svg",
-  "static/media/download.svg": "/static/media/download.b198bab3.svg",
   "static/media/downloadSmall.svg": "/static/media/downloadSmall.76f67f87.svg",
   "static/media/email.svg": "/static/media/email.b3989bf5.svg",
   "static/media/github.svg": "/static/media/github.d631fdfd.svg",
@@ -30,5 +29,6 @@
   "static/media/portfolioProject1.png": "/static/media/portfolioProject1.6436c0ee.png",
   "static/media/portfolioProject2.png": "/static/media/portfolioProject2.7c5cff46.png",
   "static/media/restuarantProject.png": "/static/media/restuarantProject.0d80cf99.png",
+  "static/media/resume.svg": "/static/media/resume.971ee7bb.svg",
   "static/media/think.svg": "/static/media/think.a0f3643b.svg"
 }
